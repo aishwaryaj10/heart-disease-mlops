@@ -1,0 +1,22 @@
+{
+  "selected_model": "Random Forest",
+  "target_column": "target",
+  "positive_class": 1,
+  "feature_columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "random_state": 42,
+  "test_size": 0.2
+}
