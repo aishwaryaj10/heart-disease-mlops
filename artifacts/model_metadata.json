@@ -1,5 +1,5 @@
 {
-  "selected_model": "Random Forest",
+  "selected_model": "Logistic Regression",
   "target_column": "target",
   "positive_class": 1,
   "feature_columns": [

@@ -133,7 +133,7 @@ def train_and_evaluate():
                 print(f"{metric_name}: {metric_value:.4f}")
 
     results_df = pd.DataFrame(results).sort_values(
-        "test_f1",
+        "cv_f1_mean",
         ascending=False,
     )
     results_df.to_csv(ARTIFACT_DIR / "model_comparison.csv", index=False)
